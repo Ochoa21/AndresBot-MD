@@ -1,0 +1,34 @@
+{
+  "name": "XavyBot-MD",
+  "website": "https://github.com/Ochoa21",
+  "description": "",
+  "repository": "https://github.com/Ochoa21/XavyBot-MD",
+  "logo": "",
+  "success_url": "https://github.com/Ochoa21/XavyBot-MD",
+  "keywords": [
+    "nodejs",
+    "heroku",
+    "bot",
+    "bots",
+    "bot",
+    "spanish",
+    "whatsapp",
+    "termux",
+    "multi-device",
+    "md",
+    "whatsappbot",
+    "oficial",
+    "whatsapp-md"],
+  "image": "heroku/nodejs",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/bogini/heroku-buildpack-graphicsmagick"
+    }    
+ ]
+}
